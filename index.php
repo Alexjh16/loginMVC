@@ -1,8 +1,8 @@
 <?php 
 require_once("core/core.php");
 
-$class = (isset($_GET['class'])) ? ($_GET['class'])  : "Usuarios";
-$method = (isset($_GET['method'])) ? ($_GET['method']) :  "index";
+$class = (isset($_GET['class'])) ? ($_GET['class'])  : "Login";
+$method = (isset($_GET['method'])) ? ($_GET['method']) :  "login";
 
 $class = $class."Controller";
 

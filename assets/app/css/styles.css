@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+}
+
+@font-face{
+    src : url("../fonts/Erstwhile.otf") format("Opentype");
+    font-style: normal;
+    font-weight: 900;
+    font-family: "Erstwhile";
+}
+
+@font-face{
+    src : url("../fonts/ErstwhileLine.otf") format("Opentype");
+    font-style: bolder;
+    font-weight: 900;
+    font-family: "ErstwhileLine";
+}
+
+@font-face{
+    src : url("../fonts/Ornalia.ttf") format("Opentype");
+    font-style: bolder;
+    font-weight: 900;
+    font-family: "Ornalia";
+}
+
+@font-face{
+    src : url("../fonts/Narrenschiff-Regular.otf") format("Opentype");
+    font-style: bolder;
+    font-weight: 900;
+    font-family: "Narrenschiff-Regular";
+}
+
+@font-face{
+    src : url("../fonts/Raleway-Regular.ttf") format("Opentype");
+    font-style: bolder;
+    font-weight: 900;
+    font-family: "Raleway-Regular";
+}
+
+
+
+#content-login{
+    background-image: url("../img/background.jpg");
+    background-size: cover;    
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container-login{
+    position: absolute;
+}
+
+.blurred-div{
+    position: absolute;
+    background-color: rgba(13, 106, 122, 0.507);
+    width: 100vw;
+    height: 100vh;    
+}
+.form-content{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+}
+.form-login{
+    position: relative;
+    top: 10%;
+    left: 25%;
+    width: 50%;
+    height: auto;
+}
+
+.form-login h3{
+    font-family: "Erstwhile";
+    font-size: 5em;
+    color: white;
+}
+
+.form-login form{
+    background-color: rgba(5, 58, 68, 0.719);
+    padding: 35px;
+    border-radius: 5px;
+}
+
+.form-login form label{
+    color: white;
+    padding-top: 25px;
+    font-family: "Raleway-Regular";
+    font-size: 2.2em;
+}
+
+.form-login form input{
+    display: block;
+    width: 100%;
+    height: 35px;
+    border-radius: 1px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid black;
+    transition: all .5s;
+    padding: 12px;
+    font-family: "Narrenschiff-Regular";
+    font-size: 1.4em;
+    color: black;
+}
+
+.form-login form input:focus{
+    outline: none;
+    border-bottom: 1px solid rgb(195, 92, 92);
+    transition: all .5s;
+    color: white;
+}
+
+.form-login .buttons-options{
+    display: inline;
+}
+
+.form-login .buttons-options button{
+    margin-top: 25px;
+    padding-right: 10px;
+    margin-right: 45px;
+    width: 22%;
+    height: 35px;
+    background-color:  transparent;
+    border: 1px solid green;
+    color: white;
+    font-weight: bolder;
+}
+
