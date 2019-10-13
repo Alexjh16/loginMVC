@@ -1,0 +1,1 @@
+<?php print("Bienvenido ".$_SESSION['user']->nombres_usuario); ?>

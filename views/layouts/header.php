@@ -7,4 +7,5 @@
     <title><?php print($title); ?></title>
     <link rel="stylesheet" type="text/css" href="assets/app/css/styles.css"/>
     <link rel="stylesheet" type="text/css" href="assets/libs/bootstrap-4/css/bootstrap.css">
+    <script type="text/javascript" src="assets/libs/jquery-3/jquery-3.js"></script>
 </head>

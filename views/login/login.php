@@ -8,13 +8,13 @@
         <div class="form-login">
             <h3>Welcome to login</h3>
 
-            <form action="">
+            <form action="?class=Login&method=auth" method="post">
                 <label for="email">Email</label>
-                    <input type="email" name="email">
+                    <input type="email" name="email" required="true">
                 <label for="password">Password</label>
-                    <input type="password" name="password">
+                    <input type="password" name="password" required="true">
                     <div class="buttons-options">
-                        <button type="submit">Login</button>
+                        <button type="submit" id="user_login">Login</button>
                         <button type="submit">Register</button>
                     </div>
                 
