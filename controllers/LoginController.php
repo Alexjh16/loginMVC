@@ -30,8 +30,7 @@ class LoginController extends Login{
             header("location:?class=Administrador&method=home");
         }
         else{
-            print("Datos Incorrectos");
-            print('<a href="?class=Login&method=login">Volver</a>');
+            header("location:?class=Login&method=login&ErrorLogin=true");
         }
         
     }

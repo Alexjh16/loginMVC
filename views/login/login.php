@@ -13,9 +13,12 @@
                     <input type="email" name="email" required="true">
                 <label for="password">Password</label>
                     <input type="password" name="password" required="true">
-                    <div class="buttons-options">
+                    <div class="buttons-options">                    
                         <button type="submit" id="user_login">Login</button>
                         <button type="submit">Register</button>
+                        <?php if(isset($_REQUEST['ErrorLogin'])):?>
+                            <span>Inconrrect password or email !</span>
+                        <?php  endif;?>
                     </div>
                 
             </form>

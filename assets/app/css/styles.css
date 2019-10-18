@@ -127,3 +127,109 @@ body{
     font-weight: bolder;
 }
 
+.form-login span{
+    color: rgba(185, 45, 2);
+    font-family: "Raleway-Regular";
+    font-size: 1em; 
+    transition: all .4s;
+}
+
+#HomeUser{
+    background: #3A5A75;  
+}
+
+.profile-container{
+    position: relative;
+    margin: 3% auto;
+    padding: 5%;
+    width: 80%;
+    height: 80vh;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.items-container{
+   width: 350px;
+   height: auto; 
+   position: relative;
+   margin: 30px auto;   
+}
+
+.items-container .profile-picture{
+    background-color: #249EBD;
+    position: relative;
+    margin: 0px auto;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.profile-picture img{
+    width: 100%;
+    height: 100%;
+}
+
+.items-container .profile-name{
+    text-align: center;
+}
+
+.profile-name h2{
+    color: #7F7F7F;
+    margin: 45px 0px 5px;
+    font-weight: bolder;
+    font-family: "Raleway-Regular";
+}
+.profile-name h4{
+    color: rgba(127, 127, 127, 0.829);
+    margin: 0px 0px 5px;
+    font-family: "Raleway-Regular";
+}
+
+
+.contenedor-redes{
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+}
+
+.contenedor-redes .red-face,
+.contenedor-redes .red-twitter{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #249EBD;
+    position: relative;
+}
+
+.contenedor-redes .red-face{
+    float: left;
+}
+
+.contenedor-redes .red-twitter{
+    float: right;
+}
+
+.btn-file{
+    margin: 10px auto;
+    width: 80px;
+    padding: 5px;
+    background-color: transparent;
+    color: black;
+    border: 1px solid #249EBD;
+    border-radius: 3px;
+    font-family: "Narrenschiff-Regular";
+    transition: 0.5s all;
+}
+
+.btn-file:hover{
+    background-color: #249EBD;
+    color: white;
+    transition: 0.5s all;
+    border: 1px solid rgb(199, 177, 177);
+}
+
