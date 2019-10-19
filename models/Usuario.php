@@ -24,6 +24,17 @@ class Usuario extends database{
             die("Error found in file models/Usuario.php:: ".$error->getMessage());
         }
     }
+
+    public function insert($nombres, $apellidos, $descripcion, $correo, $password, $date){
+        try{
+            $date = date("Y-m-h");
+            $stm = parent::Connect()->prepare("INSERT INTO usuarios(nombres_usuario, apellidos_usuario, descripcion_usuario,correo_usuario, password_usuario, created_at) VALUES('$nombres','$apellidos','$descripcion','$correo','$password','$date')");
+            $stm->execute();
+        }
+        catch(Exception $error){
+            die("Error found in file models/Usuario.php:: ".$error->getMessage());
+        }
+    }
 }
 
 ?>

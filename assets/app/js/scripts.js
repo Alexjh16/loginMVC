@@ -1,6 +1,6 @@
 $(document).ready(function(){
-    $("#user_login").click(function(){
-        //event.preventDefault();
-        //alert("ID SEND LOGIN");
+    $("#register").click(function(){
+        event.preventDefault();
+        window.location.href="?class=Usuarios&method=register";
     });
 });

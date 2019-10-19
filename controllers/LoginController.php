@@ -27,6 +27,8 @@ class LoginController extends Login{
         $usuario = $this->usuario->requestEmail($email);
         if((@$usuario->correo_usuario == $email) && (@$usuario->password_usuario == $password)){
             $_SESSION['user'] = $usuario;
+            $_SESSION['nombres'] = $usuario->nombres_usuario;
+            $_SESSION['descripcion'] = $usuario->descripcion_usuario;
             header("location:?class=Administrador&method=home");
         }
         else{
