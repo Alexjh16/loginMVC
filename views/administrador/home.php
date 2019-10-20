@@ -12,7 +12,11 @@
                 <div class="profile-name">
                         <h2><?php print($_SESSION['nombres']); ?></h2>
                         <h4><?php print($_SESSION['descripcion']); ?></h4>
-                        <button class="btn-file">picture</button>
+                        <form action="?class=Usuarios&method=setProfile" method="post" enctype="multipart/form-data">
+                            <label id="choose_picture" for="picture" class="btn-file">profile</label>
+                            <input type="submit"class="btn-file" value="Change" id="change_picture" style="display:none"/>
+                            <input type="file" name="picture_profile" style="display: none" id="picture"/>
+                        </form>
                 </div>
                 <div class="contenedor-redes">
                     <div class="red-face">

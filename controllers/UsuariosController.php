@@ -33,5 +33,10 @@ class UsuariosController{
         $_SESSION['descripcion'] = $descripcion;
         header("location:?class=Administrador&method=home");
     }
+
+    public function setProfile(){
+        $file_name = $_FILES['picture_profile'];
+        print_r($file_name);
+    }
 }
 ?>
