@@ -26,7 +26,7 @@
                     
                     </div> 
                 </div>                
-                <a href="?class=Administrador&method=logout">Salir</a>
+                <a href="?class=Security&method=Exit">Salir</a>
             </div>            
         </div>        
     </div>        
